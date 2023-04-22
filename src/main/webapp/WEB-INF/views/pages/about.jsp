@@ -12,7 +12,7 @@
         <div class="breadcrumb__text">
           <h4>About Us</h4>
           <div class="breadcrumb__links">
-            <a href="./index.html">Home</a> <span>About Us</span>
+            <a href="${contextPath}/main.do">Home</a><span>About Us</span>
           </div>
         </div>
       </div>

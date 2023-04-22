@@ -96,7 +96,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="product__details__breadcrumb">
-              <a href="./index.html">Home</a> <a href="./shop.html">Shop</a>
+              <a href="${contextPath}/main.do">Home</a> <a href="${contextPath}/shop/list.do">Shop</a>
               <span>Product Details</span>
             </div>
           </div>
@@ -147,7 +147,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="product__details__breadcrumb">
-              <a href="./index.html">Home</a> <a href="./shop.html">Shop</a>
+              <a href="${contextPath}/main.do">Home</a> <a href="${contextPath}/shop/list.do">Shop</a>
               <span>Product Details</span>
             </div>
           </div>

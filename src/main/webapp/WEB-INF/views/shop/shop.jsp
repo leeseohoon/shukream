@@ -15,7 +15,7 @@
         <div class="breadcrumb__text">
           <h4>Shop</h4>
           <div class="breadcrumb__links">
-            <a href="./index.html">Home</a> <span>Shop</span>
+            <a href="${contextPath}/main.do">Home</a> <span>Shop</span>
           </div>
         </div>
       </div>
@@ -30,14 +30,14 @@
     <div class="row">
       <div class="col-lg-3">
         <div class="shop__sidebar">
-          <div class="shop__sidebar__search">
-            <form action="#">
-              <input type="text" placeholder="Search...">
-              <button type="submit">
-                <span class="icon_search"></span>
-              </button>
-            </form>
-          </div>
+<!--           <div class="shop__sidebar__search"> -->
+<!--             <form action="#"> -->
+<!--               <input type="text" placeholder="Search..."> -->
+<!--               <button type="submit"> -->
+<!--                 <span class="icon_search"></span> -->
+<!--               </button> -->
+<!--             </form> -->
+<!--           </div> -->
           <div class="shop__sidebar__accordion">
             <div class="accordion" id="accordionExample">
               <div class="card">
@@ -170,22 +170,22 @@
                   </div>
                 </div>
               </div> -->
-              <div class="card">
-                <div class="card-heading">
-                  <a data-toggle="collapse" data-target="#collapseSix">Tags</a>
-                </div>
-                <div id="collapseSix" class="collapse show"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <div class="shop__sidebar__tags">
-                      <a href="#">Product</a> <a href="#">Bags</a> <a
-                        href="#">Shoes</a> <a href="#">Fashio</a> <a
-                        href="#">Clothing</a> <a href="#">Hats</a> <a
-                        href="#">Accessories</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<!--               <div class="card"> -->
+<!--                 <div class="card-heading"> -->
+<!--                   <a data-toggle="collapse" data-target="#collapseSix">Tags</a> -->
+<!--                 </div> -->
+<!--                 <div id="collapseSix" class="collapse show" -->
+<!--                   data-parent="#accordionExample"> -->
+<!--                   <div class="card-body"> -->
+<!--                     <div class="shop__sidebar__tags"> -->
+<!--                       <a href="#">Product</a> <a href="#">Bags</a> <a -->
+<!--                         href="#">Shoes</a> <a href="#">Fashio</a> <a -->
+<!--                         href="#">Clothing</a> <a href="#">Hats</a> <a -->
+<!--                         href="#">Accessories</a> -->
+<!--                     </div> -->
+<!--                   </div> -->
+<!--                 </div> -->
+<!--               </div> -->
             </div>
           </div>
         </div>
@@ -207,16 +207,16 @@
                   of ${totalCount} results</p>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="shop__product__option__right">
-                <p>Sort by Price:</p>
-                <select>
-                  <option value="opt=price&division=">Low To High</option>
-                  <option value="">$0 - $55</option>
-                  <option value="">$55 - $100</option>
-                </select>
-              </div>
-            </div>
+<!--             <div class="col-lg-6 col-md-6 col-sm-6"> -->
+<!--               <div class="shop__product__option__right"> -->
+<!--                 <p>Sort by Price:</p> -->
+<!--                 <select> -->
+<!--                   <option value="opt=price&division=">Low To High</option> -->
+<!--                   <option value="">$0 - $55</option> -->
+<!--                   <option value="">$55 - $100</option> -->
+<!--                 </select> -->
+<!--               </div> -->
+<!--             </div> -->
           </div>
         </div>
         <div class="row">
@@ -267,7 +267,7 @@
               <div class="product__item__text">
 	                <h6>${product.PRODUCT_NAME_EN}</h6>
 	                <span style="font-size: 12px;">${product.PRODUCT_NAME_KOR}</span>
-	                <a href="#" class="add-cart">+ Add To Wish List</a>
+	                <a class="add-cart">관심상품 등록: ♥ </a>
                 <fmt:formatNumber value="${product.PRODUCT_PRICE}" type="number" var="product_price" />
                 <h5>${product_price}원</h5>
               </div>
@@ -758,7 +758,7 @@
 	
 	    function heartBtn(PRODUCT_ID,IMG_FILE,PRODUCT_NAME_EN,PRODUCT_NAME_KOR,PRODUCT_PRICE,email){
  	        if(email == ""){
-	          alert("로그인을 하여주세요");
+	          alert("로그인을 해주세요");
  	        } else{
 	          $.ajax({
 	                  url: getContextPath()+"/favorites/favoritesLike.do",

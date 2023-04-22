@@ -14,7 +14,7 @@
         <div class="breadcrumb__text">
           <h4>Check Out</h4>
           <div class="breadcrumb__links">
-            <a href="./index.html">Home</a> <a href="./shop.html">Shop</a>
+            <a href="${contextPath}/main.do">Home</a> <a href="${contextPath}/shop/list.do">Shop</a>
             <span>Check Out</span>
           </div>
         </div>

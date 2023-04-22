@@ -1047,6 +1047,7 @@ ol {
 	background: #ffffff;
 	padding: 10px;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .product__item__text {
