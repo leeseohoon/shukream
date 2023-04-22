@@ -52,8 +52,7 @@ function result(){
 		<INPUT id="re" type="reset" value="다시입력">
 		<br>
 		<div class="find">
-		   <a href="<%=contextPath%>/member/addMemberForm.do">회원가입</a>    | 
-		   <a href="#">고객 센터</a>
+		   <a href="<%=contextPath%>/member/addMemberForm.do">[회원가입]</a>
 		</div>			   
 	</form>
 	</DIV>	
