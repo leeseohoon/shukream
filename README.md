@@ -17,12 +17,12 @@ Member : Kim(https://github.com/chanul0917)
 
 사용 기술 :
 
-언어      : Java / HTML / CSS / JavaScript / SQL
-개발 툴 :  STS3 / VS code / Oracle SQL server 
-기술      : Servlet / JSP(action tags, JSTL, EL 등) / JQuery / AJAX /  
-               Spring Framework / MAVEN / MyBatis(+동적sql) / MVC / Tiles
-서버      : Apache Tomcat Web server / Oracle DB server
-웹 하드  : Github
+언어      : Java / HTML / CSS / JavaScript / SQL<br>
+개발 툴 :  STS3 / VS code / Oracle SQL server <br>
+기술      : Servlet / JSP(action tags, JSTL, EL 등) / JQuery / AJAX /  <br>
+               Spring Framework / MAVEN / MyBatis(+동적sql) / MVC / Tiles<br>
+서버      : Apache Tomcat Web server / Oracle DB server<br>
+웹 하드  : Github<br>
 
 <<<업데이트 내역>>>
 
